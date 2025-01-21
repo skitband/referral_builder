@@ -103,9 +103,9 @@ The build files will be generated in the `dist` folder. You can serve them using
 
 ---
 
-### Other Questions
+## Other Questions
 
-## 1. What is redux middleware and what is the middleware you have used in your past projects? Explain how you have used them.
+### 1. What is redux middleware and what is the middleware you have used in your past projects? Explain how you have used them.
 
 Redux middleware extends the capabilities of the Redux store by providing a mechanism to intercept and modify actions before they reach the reducers. Essentially, it acts as an intermediary between your action creators and the reducers, allowing you to perform side effects:
 
@@ -116,10 +116,12 @@ Redux middleware extends the capabilities of the Redux store by providing a mech
 
 Redux Thunk: This is a widely used middleware that allows you to dispatch functions instead of plain objects as actions. These functions can then perform asynchronous operations and dispatch other actions as needed.
 
-## 2. What are higher-order components in React?
+### 2. What are higher-order components in React?
 
 - In React, HOC are functions that take a component as input and return a new component. HOC are component-based architecture that are instrumental in promoting code reusability. This enhances modularity and maintainability of components.
 
-## 3. How do you maintain code quality in CI/CD? Explain your best practices.
+### 3. How do you maintain code quality in CI/CD? Explain your best practices.
 
 - Test automation, code analysis and reviews, continuous monitoring and deployment. And by continuous improvement.
+
+---
