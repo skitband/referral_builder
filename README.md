@@ -22,8 +22,8 @@ build steps / explanations / set up instructions we may need to test the submiss
 
 ---
 
-### Time Duration
-- 2.5hrs.
+### Time of Completion
+- 2.5 hrs.
 
 
 ## Table of Contents
