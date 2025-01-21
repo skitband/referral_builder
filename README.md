@@ -58,8 +58,8 @@ This application is built with the following technologies:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/referral-management-app.git
-cd referral-management-app
+git clone https://github.com/skitband/referral_builder.git
+cd referral_builder_
 ```
 
 ### 2. Install Dependencies
@@ -71,36 +71,6 @@ npm install
 # or
 yarn install
 ```
-
-### 3. Set Up Supabase
-
-1. Create a new project on [Supabase](https://supabase.com/).
-2. In the Supabase dashboard, create a `referrals` table with the following schema:
-
-| Column      | Type       | Nullable |
-|-------------|------------|----------|
-| id          | UUID       | No       |
-| given_name  | Text       | No       |
-| surname     | Text       | No       |
-| email       | Text       | Yes      |
-| avatar_url  | Text       | Yes      |
-| created_at  | Timestamp  | No       |
-
-3. Set up Supabase storage for user avatars.
-4. Copy your Supabase **Project URL** and **Anon Key** for the environment setup.
-
-### 4. Configure Environment Variables
-
-Create a `.env` file in the root directory and add the following:
-
-```env
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
-
-Replace `your_supabase_url` and `your_supabase_anon_key` with the actual values from your Supabase project.
-
----
 
 ## Running the Application
 
@@ -129,28 +99,4 @@ yarn build
 The build files will be generated in the `dist` folder. You can serve them using any static file server.
 
 ---
-
-## Environment Variables
-
-- **`VITE_SUPABASE_URL`**: The URL of your Supabase project.
-- **`VITE_SUPABASE_ANON_KEY`**: The public anonymous key from Supabase.
-
-Ensure these variables are correctly set up in the `.env` file for the application to function properly.
-
----
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes and push the branch to your fork.
-4. Open a pull request to the main repository.
-
----
-
-### License
-
-This project is licensed under the [MIT License](LICENSE).
 
