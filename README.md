@@ -22,6 +22,10 @@ build steps / explanations / set up instructions we may need to test the submiss
 
 ---
 
+### Time Duration
+- 2.5hrs.
+
+
 ## Table of Contents
 
 1. [Tech Stack](#tech-stack)
@@ -98,4 +102,3 @@ yarn build
 The build files will be generated in the `dist` folder. You can serve them using any static file server.
 
 ---
-
