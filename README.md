@@ -32,7 +32,7 @@ build steps / explanations / set up instructions we may need to test the submiss
 2. [Features](#features)
 3. [Setup Instructions](#setup-instructions)
 4. [Running the Application](#running-the-application)
-
+5. [Other Questions](#other-questions)
 ---
 
 ## Tech Stack
@@ -102,3 +102,26 @@ yarn build
 The build files will be generated in the `dist` folder. You can serve them using any static file server.
 
 ---
+
+### Other Questions
+
+1. What is redux middleware and what is the middleware you have used in your past projects? Explain how you have used them.
+
+- Redux middleware extends the capabilities of the Redux store by providing a mechanism to intercept and modify actions before they reach the reducers. Essentially, it acts as an intermediary between your action creators and the reducers, allowing you to perform side effects:
+
+- Asynchronous operations: Making API calls, fetching data, interacting with external services.
+- Logging: Tracking actions dispatched and received by the store for debugging and monitoring.
+- Authentication: Implementing authentication checks before allowing certain actions to proceed and routing.
+- Error handling: Centralized error handling and reporting.
+
+## Middleware Used in Past Projects
+
+- Redux Thunk: This is a widely used middleware that allows you to dispatch functions instead of plain objects as actions. These functions can then perform asynchronous operations and dispatch other actions as needed.
+
+2. What are higher-order components in React?
+
+- In React, HOC are functions that take a component as input and return a new component. HOC are component-based architecture that are instrumental in promoting code reusability. This enhances modularity and maintainability of components.
+
+3. How do you maintain code quality in CI/CD? Explain your best practices.
+
+- Test automation, code analysis and reviews, continuous monitoring and deployment. And by continuous improvement.
