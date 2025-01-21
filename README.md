@@ -122,6 +122,12 @@ Redux Thunk: This is a widely used middleware that allows you to dispatch functi
 
 ### 3. How do you maintain code quality in CI/CD? Explain your best practices.
 
-- Test automation, code analysis and reviews, continuous monitoring and deployment. And by continuous improvement.
+Following CI/CD best practices is critical for software engineering and operations teams because it impacts every part of the process. Improving quality, making engineers more productive, allowing businesses to shorten the time to deliver critical features and much more. Best practices includes:
 
----
+- Commit Early, Commit Often
+- Build Only Once
+- Use Shared Pipelines
+- Automate Tests
+- Keep Builds Fast
+- Monitor and Measure Your Pipeline
+- Involve the Whole Team in CI/CD Implementation
