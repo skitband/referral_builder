@@ -1,4 +1,4 @@
-# Referral Builder Application
+# Referral Builder Application By: FE-Sergio-Lio
 
 This project is a **Referral Builder Application** built using modern web technologies. The application allows users to manage and search for referrals, providing CRUD functionalities and a responsive user interface.
 
@@ -28,7 +28,6 @@ build steps / explanations / set up instructions we may need to test the submiss
 2. [Features](#features)
 3. [Setup Instructions](#setup-instructions)
 4. [Running the Application](#running-the-application)
-5. [Environment Variables](#environment-variables)
 
 ---
 
@@ -59,7 +58,7 @@ This application is built with the following technologies:
 
 ```bash
 git clone https://github.com/skitband/referral_builder.git
-cd referral_builder_
+cd referral_builder
 ```
 
 ### 2. Install Dependencies
